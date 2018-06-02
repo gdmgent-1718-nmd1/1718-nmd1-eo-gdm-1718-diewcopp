@@ -11,21 +11,687 @@ body {
     padding: 25px;
 }
 
-img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+h1 {
+    font-family: "Bjorn Halftone"; 
+    color: #262d52
 }
 
-/* Voeg jouw css hieraan toe */
+h2 {
+    font-family: "Bjorn Halftone"; 
+    color: #606fb3
+}
 
-th {
+/* ------------------------------------------- BOVENBALK --------------------------------------------------------- */
+div.bovenbalk {
+    width: 100%; 
+    height: 30px; 
+    background-color: rgb(32, 32, 32); 
+}
+
+div.socialmedia {
+    margin-left: 15px; 
+    display: flex; 
+    height: 30px;
+    float: left; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+div.languages {
+    margin-right: 15px; 
+    display: flex; 
+    height: 30px;
+    float: right; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+div.instagram {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: left;  
+    background-image: url(../images/instagram.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.facebook {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: left;  
+    background-image: url(../images/facebook.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.twitter {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: left; 
+    background-image: url(../images/twitter.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.whatsapp {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: left; 
+    background-image: url(../images/whatsapp.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.nl {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: right; 
+    background-image: url(../images/nl.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.fr {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: right;  
+    background-image: url(../images/fr.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.en {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: right; 
+    background-image: url(../images/en.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.du {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: right;  
+    background-image: url(../images/du.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.instagram:hover {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: left; 
+    background-image: url(../images/instagram2.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.facebook:hover {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: left; 
+    background-image: url(../images/facebook2.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.twitter:hover {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: left; 
+    background-image: url(../images/twitter2.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.whatsapp:hover {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: left; 
+    background-image: url(../images/whatsapp2.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.nl:hover {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: right; 
+    background-image: url(../images/nl2.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.fr:hover {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: right; 
+    background-image: url(../images/fr2.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.en:hover {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: right; 
+    background-image: url(../images/en2.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+div.du:hover {
+    width: 20px; 
+    height: 20px; 
+    margin: 0px 3px 0px 3px;  
+    float: right; 
+    background-image: url(../images/du2.png);
+    background-size: 100%; 
+    border-radius: 6px; 
+}
+
+/* ------------------------------------------- NAVIGATIE --------------------------------------------------------- */
+
+div.navigatie {
+    background-color: #eeeded; 
+    width: 100%; 
+    height: 80px; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+div.navigatieknoppen {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+div.logo {
+    background-image: url(../images/logo.png); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    width: 100px; 
+    height: 43px; 
+    margin: 0px 15px 0px 25px; 
+    display: inline-block; 
+
+}
+
+p.knop {
+    display: inline; 
+    margin: 0px 20px 0px 20px; 
+    font-family: "Bjorn Light"; 
+    color: black; 
+    font-size: 25px; 
+}
+
+p.knop:hover {
+    color: #606fb3;
+}
+
+p.knop:active {
+    text-decoration: underline; 
+}
+
+div.tickets {
+    margin-left: auto; 
+    margin-right: 25px; 
+}
+
+span.gewoneknop {
+    display: inline; 
+    margin: 0px 20px 0px 20px; 
+    padding: 5px; 
+    font-family: "Bjorn Light"; 
+    color: #FFFFFF; 
+    font-size: 25px; 
+    background-color: #606fb3; 
+    padding: 0px 10px 0px 10px; 
+}
+
+span.gewoneknop:hover {
+    background-color: #262d52; 
+}
+
+span.gewoneknop:active {
+    text-decoration: underline; 
+}
+
+/* ------------------------------------------- GROTE KNOP --------------------------------------------------------- */
+
+div.groteknop {
+    transition: transform 0.7s; 
+    width: 400px; 
+    margin-left: 20px; 
+    margin-bottom: 70px; 
+}
+
+div.groteknop:hover {
+    transform: scale(1.05,1.05);
+    transition: transform 0.7s; 
+}
+div.knopafbeelding {
+    position: relative; 
+    width: 350px; 
+    height: 200px; 
+    background-color: pink; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+    background-image: url(../images/groteknop.png); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+}
+
+div.knoptekst {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: absolute; 
+    width: 190px; 
+    height: 80px; 
+    background-color: white; 
+    top: 160px; 
+    left: 200px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+}
+
+p.groteknoptekst {
+    font-family: 'Bjorn Light'; 
+    color: black; 
+    font-size: 20px; 
+}
+
+/* ------------------------------------------- FOOTER --------------------------------------------------------- */
+
+div.sponsorfooter {
+    width: 100%; 
+    height: 160px; 
+    background-color: rgb(32, 32, 32); 
+}
+
+div.sponsors { 
+    padding: 0px 20px 0px 20px;
+    width: 98%; 
+    height: 155px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+div.kinepolis {
+    width: 100px; 
+    height: 100px; 
+    float: left;  
+    background-image: url(../images/kinepolis.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
+div.westvlaanderen {
+    width: 110px; 
+    height: 94px; 
+    margin-top: 5px; 
+    float: left;  
+    background-image: url(../images/westvlaanderen.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
+div.artevelde {
+    width: 150px; 
+    height: 90px; 
+    float: left;  
+    background-image: url(../images/artevelde.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
+div.airscreen {
+    width: 240px; 
+    height: 84px; 
+    float: left;  
+    background-image: url(../images/airscreen.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
+div.kinepolis:hover {
+    width: 100px; 
+    height: 100px; 
+    float: left;  
+    background-image: url(../images/kinepolis2.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
+div.westvlaanderen:hover {
+    width: 110px; 
+    height: 94px; 
+    margin-top: 5px; 
+    float: left;  
+    background-image: url(../images/westvlaanderen2.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
+div.artevelde:hover {
+    width: 150px; 
+    height: 90px; 
+    float: left;  
+    background-image: url(../images/artevelde2.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
+div.airscreen:hover {
+    width: 240px; 
+    height: 84px; 
+    float: left;  
+    background-image: url(../images/airscreen2.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+}
+
+/* ------------------------------------------- CONTACT FOOTER --------------------------------------------------------- */
+
+div.contactfooter {
+    width: 100%; 
+    height: 140px; 
+    background-color: rgb(32, 32, 32); 
+}
+
+div.contact { 
+    padding: 0px 20px 0px 20px;
+    width: 98%; 
+    height: 135px;
+    display: flex; 
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.47); 
+    align-items: center; 
 }
 
-td {
-    padding-right: 50px; 
+div.logocontact {
+    width: 15%; 
+    height: 100px; 
+    float: left;  
+    margin-top: 10px; 
+    background-image: url(../images/logo.png); 
+    background-repeat: no-repeat;  
+    background-size: 100%; 
 }
 
-li {
-    padding-bottom: 20px; 
+div.contact1 {
+    width: 40%; 
+    height: 94px; 
+    margin: 5px 20px 25px 40px; 
+    float: left;  
+    vertical-align: middle; 
+    font-family: 'Roboto';
+    font-size: 16px;  
+    color: white; 
+}
+
+div.contact2 {
+    width: 40%; 
+    height: 90px; 
+    margin: 5px 40px 0px 20px; 
+    float: left;  
+    font-family: 'Roboto';
+    font-size: 16px;  
+    text-align: right;  
+    color: white; 
+}
+
+/* ------------------------------------------- FILMOVERZICHT --------------------------------------------------------- */
+
+div.filmoverzicht {
+    position: relative; 
+    width: 600px;
+    height: 200px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+    transform: scale(1,1);
+    transition: transform 0.7s; 
+    margin: 0px 0px 30px 20px; 
+}
+
+div.filmoverzicht:hover {
+    position: relative; 
+    width: 600px;
+    height: 200px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05 ,1.05);
+    transition: transform 0.7s; 
+    margin-left: 20px; 
+}
+
+div.filmoverzichtcover {
+    width: 25%; 
+    height: 100%; 
+    display: inline-block; 
+    padding: 0px;
+    margin: 0px; 
+    background-image: url(../images/quiteplace.jpg);
+    background-size: 100%; 
+}
+
+div.filmoverzichttekst {
+    width: 74%;
+    height: 90%; 
+    margin: 0px; 
+    padding: 5px 0px 0px 10px; 
+    display: inline-block; 
+    background-color: white; 
+    text-align: left;
+    vertical-align: middle; 
+    position: absolute; 
+    top: 0px; 
+    left: 150px; 
+    color: rgb(67, 67, 67);
+}
+
+div.filmoverzichtknop {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    width: 120px; 
+    height: 70px; 
+    position: absolute; 
+    padding: 5px 5px 0px 5px; 
+    top: 150px; 
+    left: 520px; 
+    background-color: #606fb3;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+}
+
+p.filmoverzichtknoptekst {
+    font-family: "Bjorn Light";
+    color: white; 
+    font-size: 20px; 
+}
+
+p.filmoverzichttitel {
+    font-family: 'Bjorn'; 
+    color: black; 
+    font-size: 24px; 
+    padding: 5px 0px 0px 0px; 
+    margin: 0px; 
+}
+
+p.filmoverzichtondertitel {
+    font-family: 'Bjorn Light'; 
+    color: black; 
+    font-size: 16px; 
+    padding: 0px; 
+    margin: 1px; 
+}
+
+p.filmoverzichttekst {
+    font-family: 'Roboto'; 
+    font-size: 14px; 
+    color: rgb(67, 67, 67); 
+    padding: 0px 5px 0px 0px; 
+}
+
+/* ------------------------------------------- EXTRA INFO FILM --------------------------------------------------------- */
+
+div.infoblok {
+    width: 180px; 
+    height: 100px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+    background-color: white; 
+    margin: 0px 0px 0px 20px; 
+    padding: 0px; 
+}
+
+div.titelinfoblok {
+    height: 50%;
+    width: 80%;
+    border-bottom: 3px black solid; 
+    padding-bottom: 3px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex; 
+    align-content: center; 
+    justify-content: center; 
+    text-align: center; 
+    font-family: "Bjorn"; 
+    font-size: 24px; 
+    color: black; 
+}
+
+div.tekstinfoblok {
+    height: 50%; 
+    margin: 0px; 
+    text-align: center; 
+    font-family: 'Bjorn Light'; 
+    font-size: 16px; 
+}
+
+input[type=text] {
+    width: 350px; 
+    height: 30px; 
+    padding: 0px 10px; 
+    color: rgb(67, 67, 67); 
+    font-family: 'Roboto'; 
+    font-size: 16px; 
+    box-sizing: border-box;
+    background-color: white; 
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); 
+    border: 1px solid rgba(67, 67, 67, 0.55); 
+
+}
+
+div.kleuren {
+    display: flex; 
+    align-content: center; 
+    justify-content: center; 
+    
+}
+
+div.white {
+    background-color: rgb(255, 255, 255);
+    width: 100px; 
+    height: 230px; 
+    margin: 10px;
+    font-family: 'Roboto';  
+    text-align: center; 
+    padding: 3px; 
+    border: black solid 0.2px; 
+    color: black;
+}
+
+div.g1 {
+    background-color: rgb(237, 237, 237); 
+    width: 100px; 
+    height: 230px; 
+    margin: 10px;
+    font-family: 'Roboto';  
+    text-align: center;  
+    padding: 3px; 
+    color: black; 
+}
+
+div.g2 {
+    background-color: rgb(67, 67, 67); 
+    width: 100px; 
+    height: 230px; 
+    margin: 10px;
+    font-family: 'Roboto';  
+    text-align: center; 
+    color: white; 
+    padding: 3px; 
+}
+
+div.g3 {
+    background-color: rgb(32, 32, 32); 
+    width: 100px; 
+    height: 230px; 
+    margin: 10px;
+    font-family: 'Roboto';  
+    text-align: center; 
+    color: white; 
+    padding: 3px; 
+}
+
+div.black {
+    background-color: rgb(0, 0, 0); 
+    width: 100px; 
+    height: 230px; 
+    margin: 10px;
+    font-family: 'Roboto';  
+    text-align: center;   
+    color: white; 
+    padding: 3px; 
+}
+
+div.b1 {
+    background-color: rgb(99, 115, 218);
+    width: 100px; 
+    height: 230px; 
+    margin: 10px;
+    font-family: 'Roboto';  
+    text-align: center; 
+    padding: 3px; 
+    color: black; 
+}
+
+div.b2 {
+    background-color: rgb(38, 45, 82);
+    width: 100px; 
+    height: 230px; 
+    margin: 10px;
+    font-family: 'Roboto';  
+    text-align: center; 
+    padding: 3px;  
+    color: white; 
+}
+
+p.bjornr {
+    font-family: 'Bjorn Regular'; 
+    color: black; 
+}
+
+p.bjornl {
+    font-family: 'Bjorn Light'; 
+    color: black;  
+}
+
+p.roboto {
+    font-family: 'Roboto'; 
+    color: black; 
 }
